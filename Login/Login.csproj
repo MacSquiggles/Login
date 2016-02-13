@@ -46,16 +46,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="correctForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="correctForm.Designer.cs">
+      <DependentUpon>correctForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="incorrectLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="incorrectLogin.Designer.cs">
+      <DependentUpon>incorrectLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loadingForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="loadingForm.Designer.cs">
+      <DependentUpon>loadingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="mainScreen.Designer.cs">
+      <DependentUpon>mainScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="correctForm.resx">
+      <DependentUpon>correctForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="incorrectLogin.resx">
+      <DependentUpon>incorrectLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loadingForm.resx">
+      <DependentUpon>loadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainScreen.resx">
+      <DependentUpon>mainScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +124,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hip-star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glassesgif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thirdTry.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinkfloydgif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sadgif.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
