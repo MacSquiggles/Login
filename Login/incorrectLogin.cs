@@ -19,11 +19,13 @@ namespace Login
 
         private void tryAgainButton_Click(object sender, EventArgs e)
         {
-            //Form i = this.FindForm();
-            //i.Controls.Remove(i);
+            Refresh();
+            Form f = this.FindForm();
+            f.Controls.Remove(this);
+
             mainScreen ms = new mainScreen();
-            ms.Location = new Point(this.Width - ms.Width / 2, (this.Height - ms.Height) / 2);
-            this.Controls.Add(ms);
+            ms.Location = new Point((f.Width - ms.Width)/ 2, (f.Height - ms.Height) / 2);
+            f.Controls.Add(ms);
         }
     }
 }

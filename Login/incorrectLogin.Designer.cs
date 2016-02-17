@@ -37,9 +37,9 @@
             // incorrectLabel
             // 
             this.incorrectLabel.AutoSize = true;
-            this.incorrectLabel.BackColor = System.Drawing.Color.White;
+            this.incorrectLabel.BackColor = System.Drawing.Color.Transparent;
             this.incorrectLabel.Font = new System.Drawing.Font("Pristina", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.incorrectLabel.Location = new System.Drawing.Point(65, 65);
+            this.incorrectLabel.Location = new System.Drawing.Point(154, 33);
             this.incorrectLabel.Name = "incorrectLabel";
             this.incorrectLabel.Size = new System.Drawing.Size(351, 52);
             this.incorrectLabel.TabIndex = 0;
@@ -49,9 +49,9 @@
             // 
             this.tryAgainButton.BackColor = System.Drawing.Color.White;
             this.tryAgainButton.Font = new System.Drawing.Font("Pristina", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tryAgainButton.Location = new System.Drawing.Point(3, 389);
+            this.tryAgainButton.Location = new System.Drawing.Point(3, 450);
             this.tryAgainButton.Name = "tryAgainButton";
-            this.tryAgainButton.Size = new System.Drawing.Size(494, 68);
+            this.tryAgainButton.Size = new System.Drawing.Size(688, 68);
             this.tryAgainButton.TabIndex = 1;
             this.tryAgainButton.Text = "Try Again";
             this.tryAgainButton.UseVisualStyleBackColor = false;
@@ -60,10 +60,10 @@
             // sadBox
             // 
             this.sadBox.Image = global::Login.Properties.Resources.sadgif;
-            this.sadBox.Location = new System.Drawing.Point(90, 150);
+            this.sadBox.Location = new System.Drawing.Point(44, 101);
             this.sadBox.Name = "sadBox";
-            this.sadBox.Size = new System.Drawing.Size(300, 207);
-            this.sadBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.sadBox.Size = new System.Drawing.Size(588, 343);
+            this.sadBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.sadBox.TabIndex = 2;
             this.sadBox.TabStop = false;
             // 
@@ -76,7 +76,7 @@
             this.Controls.Add(this.tryAgainButton);
             this.Controls.Add(this.incorrectLabel);
             this.Name = "incorrectLogin";
-            this.Size = new System.Drawing.Size(500, 500);
+            this.Size = new System.Drawing.Size(694, 550);
             ((System.ComponentModel.ISupportInitialize)(this.sadBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

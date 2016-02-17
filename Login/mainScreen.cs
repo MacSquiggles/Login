@@ -33,8 +33,10 @@ namespace Login
             {
                 Form1.passwordRight = true;
             }
+
             Form f = this.FindForm();
             f.Controls.Remove(this);
+
             loadingForm lf = new loadingForm();
             lf.Location = new Point((f.Width - lf.Width) / 2, (f.Height - lf.Height) / 2);
             f.Controls.Add(lf);

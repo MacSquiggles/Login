@@ -93,6 +93,26 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap glassesgif1 {
+            get {
+                object obj = ResourceManager.GetObject("glassesgif1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap glassesgif2 {
+            get {
+                object obj = ResourceManager.GetObject("glassesgif2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hip_star {
             get {
                 object obj = ResourceManager.GetObject("hip-star", resourceCulture);
@@ -126,6 +146,16 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap thirdTry {
             get {
                 object obj = ResourceManager.GetObject("thirdTry", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thirdTry1 {
+            get {
+                object obj = ResourceManager.GetObject("thirdTry1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -37,7 +37,7 @@
             // 
             this.welcomeLabel.AutoSize = true;
             this.welcomeLabel.Font = new System.Drawing.Font("Pristina", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomeLabel.Location = new System.Drawing.Point(97, 42);
+            this.welcomeLabel.Location = new System.Drawing.Point(168, 36);
             this.welcomeLabel.Name = "welcomeLabel";
             this.welcomeLabel.Size = new System.Drawing.Size(269, 52);
             this.welcomeLabel.TabIndex = 0;
@@ -46,10 +46,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Login.Properties.Resources.pinkfloydgif;
-            this.pictureBox1.Location = new System.Drawing.Point(106, 135);
+            this.pictureBox1.Location = new System.Drawing.Point(46, 110);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(250, 200);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.Size = new System.Drawing.Size(556, 333);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -61,7 +61,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.welcomeLabel);
             this.Name = "correctForm";
-            this.Size = new System.Drawing.Size(500, 426);
+            this.Size = new System.Drawing.Size(669, 473);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
